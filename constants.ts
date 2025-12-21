@@ -84,7 +84,7 @@ export const STEPS: Step[] = [
         title: "Verify",
         subtitle: "MRV Integration",
         desc: "Continuous Monitoring, Reporting and Verification (MRV) using IoT sensors and remote sensing to prove carbon removal occurred and persists.",
-        img: getImageUrl("verify-min.png"),
+        img: getImageUrl("verify.png"),
         icon: "verified_user"
     },
     {
