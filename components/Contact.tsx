@@ -239,7 +239,7 @@ const Contact: React.FC = () => {
                     </div>
 
                     <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-gray-600">
-                        <p>© 2025 NFGF Carbon Assets. All rights reserved.</p>
+                        <p>© 2026 NFGF Carbon Assets. All rights reserved.</p>
                         <button className="flex items-center gap-2 hover:text-white transition-colors group">
                             <span className="material-symbols-outlined text-sm group-hover:text-brand-green transition-colors">download</span>
                             EXPORT CORPORATE DECK
