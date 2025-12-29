@@ -184,6 +184,10 @@ const Contact: React.FC = () => {
                         <p className="mt-6 text-xs text-gray-600 font-mono">
                             We respect your privacy. No spam, ever.
                         </p>
+
+                        <p className="mt-2 text-xs text-gray-600 font-mono">
+                            Call Us At +91 8744 822 555
+                        </p>
                     </div>
                 </div>
 
