@@ -200,7 +200,7 @@ const Contact: React.FC = () => {
                             </div>
                             <p className="text-gray-400 mb-6 max-w-xs">Builders of Lasting Carbon Assets.</p>
                             <div className="flex flex-wrap gap-4 text-xs font-mono text-gray-500 uppercase tracking-wider">
-                                <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Kohima</span>
+                                <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Dimapur</span>
                                 <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Noida</span>
                                 <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Panaji</span>
                             </div>
