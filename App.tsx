@@ -1,4 +1,5 @@
 import React from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
@@ -17,6 +18,7 @@ const App: React.FC = () => {
       <Services />
       <Impact />
       <Contact />
+      <Analytics />
     </div>
   );
 };
