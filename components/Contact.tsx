@@ -195,8 +195,8 @@ const Contact: React.FC = () => {
                     <div className="grid md:grid-cols-4 gap-12 mb-16">
                         <div className="col-span-1 md:col-span-2">
                             <div className="flex items-center gap-2 mb-6">
-                                <span className="font-mono font-bold text-xl tracking-tighter text-brand-green">NFGF</span>
-                                <span className="font-mono font-bold text-xl tracking-tighter text-white">CARBON ASSETS</span>
+                                <span className="font-mono font-bold text-xl tracking-tighter text-brand-green">Silverback</span>
+                                <span className="font-mono font-bold text-xl tracking-tighter text-white">ECOSYSTEMS</span>
                             </div>
                             <p className="text-gray-400 mb-6 max-w-xs">Builders of Lasting Carbon Assets.</p>
                             <div className="flex flex-wrap gap-4 text-xs font-mono text-gray-500 uppercase tracking-wider">
@@ -243,7 +243,7 @@ const Contact: React.FC = () => {
                     </div>
 
                     <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-gray-600">
-                        <p>© 2026 NFGF Carbon Assets. All rights reserved.</p>
+                        <p>© 2026 Silverback Ecosystems. All rights reserved.</p>
                         <button className="flex items-center gap-2 hover:text-white transition-colors group">
                             <span className="material-symbols-outlined text-sm group-hover:text-brand-green transition-colors">download</span>
                             EXPORT CORPORATE DECK
