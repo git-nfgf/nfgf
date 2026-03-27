@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <div className="w-8 h-8 bg-brand-green/20 border border-brand-green flex items-center justify-center">
             <span className="material-symbols-outlined text-brand-green text-sm">forest</span>
           </div>
-          <span className="font-mono font-bold text-xl tracking-tighter text-white">Silverback</span>
+          <span className="font-mono font-bold text-xl tracking-tighter text-white">Silverback Ecosystems</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 font-mono text-sm tracking-wide text-gray-400">
