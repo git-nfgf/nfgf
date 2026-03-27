@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
           <div className="w-8 h-8 bg-brand-green/20 border border-brand-green flex items-center justify-center">
             <span className="material-symbols-outlined text-brand-green text-sm">forest</span>
           </div>
-          <span className="font-mono font-bold text-xl tracking-tighter text-white">NFGF</span>
+          <span className="font-mono font-bold text-xl tracking-tighter text-white">Silverback</span>
         </div>
         
         <div className="hidden md:flex items-center gap-8 font-mono text-sm tracking-wide text-gray-400">
@@ -66,16 +66,12 @@ const Navbar: React.FC = () => {
         </div>
         
         <a 
-            className="hidden md:block px-6 py-2 border border-white/20 hover:border-brand-green hover:text-brand-green hover:bg-brand-green/5 transition-all font-mono text-sm uppercase tracking-wider text-white cursor-pointer" 
-            href="#contact"
-            onClick={(e) => scrollToSection(e, 'contact')}
+          className="hidden md:block px-6 py-2 border border-white/20 hover:border-brand-green hover:text-brand-green hover:bg-brand-green/5 transition-all font-mono text-sm uppercase tracking-wider text-white cursor-pointer" 
+          href="#contact"
+          onClick={(e) => scrollToSection(e, 'contact')}
         >
-            Partner With Us
+          Partner With Us
         </a>
-        
-        <button className="md:hidden text-white">
-          <span className="material-symbols-outlined">menu</span>
-        </button>
       </div>
     </nav>
   );
