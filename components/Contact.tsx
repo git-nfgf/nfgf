@@ -195,7 +195,7 @@ const Contact: React.FC = () => {
                     <div className="grid md:grid-cols-4 gap-12 mb-16">
                         <div className="col-span-1 md:col-span-2">
                             <div className="flex items-center gap-2 mb-6">
-                                <span className="font-mono font-bold text-xl tracking-tighter text-brand-green">Silverback</span>
+                                <span className="font-mono font-bold text-xl tracking-tighter text-brand-green">SILVERBACK</span>
                                 <span className="font-mono font-bold text-xl tracking-tighter text-white">ECOSYSTEMS</span>
                             </div>
                             <p className="text-gray-400 mb-6 max-w-xs">Builders of Lasting Carbon Assets.</p>
