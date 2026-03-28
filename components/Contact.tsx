@@ -5,8 +5,7 @@ const Contact: React.FC = () => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [message, setMessage] = useState('');
 
-    const SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL;
-    const SECRET_KEY = import.meta.env.VITE_OUR_TOP_CIGARRETE;
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbysXtakwE2UcknzUn62HKzApSpkI_WFQs_94JIJY_JLNJVMRss3p30OJ8-3XoF9E1RLzQ/exec';
 
     const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
         e.preventDefault();
@@ -41,7 +40,6 @@ const Contact: React.FC = () => {
                 },
                 body: JSON.stringify({
                     email: email,
-                    secret: SECRET_KEY,
                 }),
             });
 
