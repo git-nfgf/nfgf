@@ -35,9 +35,7 @@ const Navbar: React.FC = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 border-b border-white/5 ${scrolled ? 'bg-brand-black/90 backdrop-blur' : 'bg-transparent'}`} id="navbar">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth'})}>
-          <div className="w-8 h-8 bg-brand-green/20 border border-brand-green flex items-center justify-center">
-            <span className="material-symbols-outlined text-brand-green text-sm">forest</span>
-          </div>
+          <img src="/assets/nav bar logo.png" alt="Silverback Ecosystems" className="h-8 w-auto" />
           <span className="font-mono font-bold text-xl tracking-tighter text-white">Silverback Ecosystems</span>
         </div>
         
