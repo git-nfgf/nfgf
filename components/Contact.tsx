@@ -9,10 +9,10 @@ const Contact: React.FC = () => {
 
     const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
         e.preventDefault();
-        const element = document.getElementById(id);
+        const element = document.getElementById(id)
         if (element) {
             const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-            const offsetPosition = elementPosition - 100;
+            const offsetPosition = elementPosition - 100
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
@@ -199,7 +199,7 @@ const Contact: React.FC = () => {
                             <p className="text-gray-400 mb-6 max-w-xs">Builders of Lasting Carbon Assets.</p>
                             <div className="flex flex-wrap gap-4 text-xs font-mono text-gray-500 uppercase tracking-wider">
                                 <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Pune</span>
-                                <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Noida</span>
+                                <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Guwahati</span>
                                 <span className="flex items-center gap-1"><span className="w-1 h-1 bg-brand-green rounded-full"></span>Panaji</span>
                             </div>
                         </div>
